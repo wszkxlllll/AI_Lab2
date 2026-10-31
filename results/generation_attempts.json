@@ -1,0 +1,122 @@
+[
+  {
+    "seed": 66,
+    "candidate": 0,
+    "connected": true
+  },
+  {
+    "seed": 66,
+    "candidate": 1,
+    "connected": true
+  },
+  {
+    "seed": 66,
+    "candidate": 2,
+    "connected": true
+  },
+  {
+    "seed": 66,
+    "candidate": 3,
+    "connected": true
+  },
+  {
+    "seed": 66,
+    "candidate": 4,
+    "connected": true
+  },
+  {
+    "seed": 66,
+    "candidate": 5,
+    "connected": true
+  },
+  {
+    "seed": 66,
+    "candidate": 6,
+    "connected": false
+  },
+  {
+    "seed": 66,
+    "candidate": 7,
+    "connected": true
+  },
+  {
+    "seed": 66,
+    "candidate": 8,
+    "connected": true
+  },
+  {
+    "seed": 66,
+    "candidate": 9,
+    "connected": true
+  },
+  {
+    "seed": 66,
+    "candidate": 10,
+    "connected": false
+  },
+  {
+    "seed": 66,
+    "candidate": 11,
+    "connected": true
+  },
+  {
+    "seed": 88,
+    "candidate": 0,
+    "connected": false
+  },
+  {
+    "seed": 88,
+    "candidate": 1,
+    "connected": false
+  },
+  {
+    "seed": 88,
+    "candidate": 2,
+    "connected": true
+  },
+  {
+    "seed": 88,
+    "candidate": 3,
+    "connected": true
+  },
+  {
+    "seed": 88,
+    "candidate": 4,
+    "connected": true
+  },
+  {
+    "seed": 88,
+    "candidate": 5,
+    "connected": true
+  },
+  {
+    "seed": 88,
+    "candidate": 6,
+    "connected": true
+  },
+  {
+    "seed": 88,
+    "candidate": 7,
+    "connected": true
+  },
+  {
+    "seed": 88,
+    "candidate": 8,
+    "connected": true
+  },
+  {
+    "seed": 88,
+    "candidate": 9,
+    "connected": true
+  },
+  {
+    "seed": 88,
+    "candidate": 10,
+    "connected": true
+  },
+  {
+    "seed": 88,
+    "candidate": 11,
+    "connected": true
+  }
+]

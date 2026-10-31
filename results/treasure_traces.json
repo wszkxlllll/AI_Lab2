@@ -1,0 +1,664 @@
+{
+  "2": {
+    "result": {
+      "value": -1.0,
+      "best_action": "T2",
+      "principal_variation": [
+        "T2",
+        "T3"
+      ],
+      "visited": 13,
+      "leaves": 8,
+      "cutoffs": 2,
+      "skipped_children": 4,
+      "events": [
+        {
+          "event": "叶子",
+          "path": "r/T1/T2",
+          "value": 1.0,
+          "alpha": "-inf",
+          "beta": "inf"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T1/T3",
+          "value": -4.0,
+          "alpha": "-inf",
+          "beta": 1.0
+        },
+        {
+          "event": "叶子",
+          "path": "r/T1/T4",
+          "value": 2.0,
+          "alpha": "-inf",
+          "beta": -4.0
+        },
+        {
+          "event": "回传",
+          "path": "r/T1",
+          "value": -4.0,
+          "bound": "精确值",
+          "alpha_in": "-inf",
+          "beta_in": "inf",
+          "action": "T3"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T2/T1",
+          "value": 1.0,
+          "alpha": -4.0,
+          "beta": "inf"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T2/T3",
+          "value": -1.0,
+          "alpha": -4.0,
+          "beta": 1.0
+        },
+        {
+          "event": "叶子",
+          "path": "r/T2/T4",
+          "value": 5.0,
+          "alpha": -4.0,
+          "beta": -1.0
+        },
+        {
+          "event": "回传",
+          "path": "r/T2",
+          "value": -1.0,
+          "bound": "精确值",
+          "alpha_in": -4.0,
+          "beta_in": "inf",
+          "action": "T3"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T3/T1",
+          "value": -2.0,
+          "alpha": -1.0,
+          "beta": "inf"
+        },
+        {
+          "event": "剪枝",
+          "path": "r/T3",
+          "alpha": -1.0,
+          "beta": -2.0,
+          "skipped": [
+            "T2",
+            "T4"
+          ]
+        },
+        {
+          "event": "回传",
+          "path": "r/T3",
+          "value": -2.0,
+          "bound": "上界",
+          "alpha_in": -1.0,
+          "beta_in": "inf",
+          "action": "T1"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T4/T1",
+          "value": -2.0,
+          "alpha": -1.0,
+          "beta": "inf"
+        },
+        {
+          "event": "剪枝",
+          "path": "r/T4",
+          "alpha": -1.0,
+          "beta": -2.0,
+          "skipped": [
+            "T2",
+            "T3"
+          ]
+        },
+        {
+          "event": "回传",
+          "path": "r/T4",
+          "value": -2.0,
+          "bound": "上界",
+          "alpha_in": -1.0,
+          "beta_in": "inf",
+          "action": "T1"
+        },
+        {
+          "event": "回传",
+          "path": "r",
+          "value": -1.0,
+          "bound": "精确值",
+          "alpha_in": "-inf",
+          "beta_in": "inf",
+          "action": "T2"
+        }
+      ]
+    },
+    "trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "distance": 4.0,
+        "gain": 2.0,
+        "score_a": 2.0,
+        "score_b": 0,
+        "utility": 2.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "distance": 4.0,
+        "gain": 3.0,
+        "score_a": 2.0,
+        "score_b": 3.0,
+        "utility": -1.0
+      }
+    ]
+  },
+  "4": {
+    "result": {
+      "value": 3.0,
+      "best_action": "T3",
+      "principal_variation": [
+        "T3",
+        "T1",
+        "T2",
+        "T4"
+      ],
+      "visited": 47,
+      "leaves": 16,
+      "cutoffs": 5,
+      "skipped_children": 6,
+      "events": [
+        {
+          "event": "叶子",
+          "path": "r/T1/T2/T3/T4",
+          "value": 1.0,
+          "alpha": "-inf",
+          "beta": "inf"
+        },
+        {
+          "event": "回传",
+          "path": "r/T1/T2/T3",
+          "value": 1.0,
+          "bound": "精确值",
+          "alpha_in": "-inf",
+          "beta_in": "inf",
+          "action": "T4"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T1/T2/T4/T3",
+          "value": -5.0,
+          "alpha": 1.0,
+          "beta": "inf"
+        },
+        {
+          "event": "回传",
+          "path": "r/T1/T2/T4",
+          "value": -5.0,
+          "bound": "上界",
+          "alpha_in": 1.0,
+          "beta_in": "inf",
+          "action": "T3"
+        },
+        {
+          "event": "回传",
+          "path": "r/T1/T2",
+          "value": 1.0,
+          "bound": "精确值",
+          "alpha_in": "-inf",
+          "beta_in": "inf",
+          "action": "T3"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T1/T3/T2/T4",
+          "value": -5.0,
+          "alpha": "-inf",
+          "beta": 1.0
+        },
+        {
+          "event": "回传",
+          "path": "r/T1/T3/T2",
+          "value": -5.0,
+          "bound": "精确值",
+          "alpha_in": "-inf",
+          "beta_in": 1.0,
+          "action": "T4"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T1/T3/T4/T2",
+          "value": -9.0,
+          "alpha": -5.0,
+          "beta": 1.0
+        },
+        {
+          "event": "回传",
+          "path": "r/T1/T3/T4",
+          "value": -9.0,
+          "bound": "上界",
+          "alpha_in": -5.0,
+          "beta_in": 1.0,
+          "action": "T2"
+        },
+        {
+          "event": "回传",
+          "path": "r/T1/T3",
+          "value": -5.0,
+          "bound": "精确值",
+          "alpha_in": "-inf",
+          "beta_in": 1.0,
+          "action": "T2"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T1/T4/T2/T3",
+          "value": 1.0,
+          "alpha": "-inf",
+          "beta": -5.0
+        },
+        {
+          "event": "回传",
+          "path": "r/T1/T4/T2",
+          "value": 1.0,
+          "bound": "下界",
+          "alpha_in": "-inf",
+          "beta_in": -5.0,
+          "action": "T3"
+        },
+        {
+          "event": "剪枝",
+          "path": "r/T1/T4",
+          "alpha": 1.0,
+          "beta": -5.0,
+          "skipped": [
+            "T3"
+          ]
+        },
+        {
+          "event": "回传",
+          "path": "r/T1/T4",
+          "value": 1.0,
+          "bound": "下界",
+          "alpha_in": "-inf",
+          "beta_in": -5.0,
+          "action": "T2"
+        },
+        {
+          "event": "回传",
+          "path": "r/T1",
+          "value": -5.0,
+          "bound": "精确值",
+          "alpha_in": "-inf",
+          "beta_in": "inf",
+          "action": "T3"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T2/T1/T3/T4",
+          "value": 7.0,
+          "alpha": -5.0,
+          "beta": "inf"
+        },
+        {
+          "event": "回传",
+          "path": "r/T2/T1/T3",
+          "value": 7.0,
+          "bound": "精确值",
+          "alpha_in": -5.0,
+          "beta_in": "inf",
+          "action": "T4"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T2/T1/T4/T3",
+          "value": 1.0,
+          "alpha": 7.0,
+          "beta": "inf"
+        },
+        {
+          "event": "回传",
+          "path": "r/T2/T1/T4",
+          "value": 1.0,
+          "bound": "上界",
+          "alpha_in": 7.0,
+          "beta_in": "inf",
+          "action": "T3"
+        },
+        {
+          "event": "回传",
+          "path": "r/T2/T1",
+          "value": 7.0,
+          "bound": "精确值",
+          "alpha_in": -5.0,
+          "beta_in": "inf",
+          "action": "T3"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T2/T3/T1/T4",
+          "value": 1.0,
+          "alpha": -5.0,
+          "beta": 7.0
+        },
+        {
+          "event": "回传",
+          "path": "r/T2/T3/T1",
+          "value": 1.0,
+          "bound": "精确值",
+          "alpha_in": -5.0,
+          "beta_in": 7.0,
+          "action": "T4"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T2/T3/T4/T1",
+          "value": -3.0,
+          "alpha": 1.0,
+          "beta": 7.0
+        },
+        {
+          "event": "回传",
+          "path": "r/T2/T3/T4",
+          "value": -3.0,
+          "bound": "上界",
+          "alpha_in": 1.0,
+          "beta_in": 7.0,
+          "action": "T1"
+        },
+        {
+          "event": "回传",
+          "path": "r/T2/T3",
+          "value": 1.0,
+          "bound": "精确值",
+          "alpha_in": -5.0,
+          "beta_in": 7.0,
+          "action": "T1"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T2/T4/T1/T3",
+          "value": 7.0,
+          "alpha": -5.0,
+          "beta": 1.0
+        },
+        {
+          "event": "回传",
+          "path": "r/T2/T4/T1",
+          "value": 7.0,
+          "bound": "下界",
+          "alpha_in": -5.0,
+          "beta_in": 1.0,
+          "action": "T3"
+        },
+        {
+          "event": "剪枝",
+          "path": "r/T2/T4",
+          "alpha": 7.0,
+          "beta": 1.0,
+          "skipped": [
+            "T3"
+          ]
+        },
+        {
+          "event": "回传",
+          "path": "r/T2/T4",
+          "value": 7.0,
+          "bound": "下界",
+          "alpha_in": -5.0,
+          "beta_in": 1.0,
+          "action": "T1"
+        },
+        {
+          "event": "回传",
+          "path": "r/T2",
+          "value": 1.0,
+          "bound": "精确值",
+          "alpha_in": -5.0,
+          "beta_in": "inf",
+          "action": "T3"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T3/T1/T2/T4",
+          "value": 3.0,
+          "alpha": 1.0,
+          "beta": "inf"
+        },
+        {
+          "event": "回传",
+          "path": "r/T3/T1/T2",
+          "value": 3.0,
+          "bound": "精确值",
+          "alpha_in": 1.0,
+          "beta_in": "inf",
+          "action": "T4"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T3/T1/T4/T2",
+          "value": -1.0,
+          "alpha": 3.0,
+          "beta": "inf"
+        },
+        {
+          "event": "回传",
+          "path": "r/T3/T1/T4",
+          "value": -1.0,
+          "bound": "上界",
+          "alpha_in": 3.0,
+          "beta_in": "inf",
+          "action": "T2"
+        },
+        {
+          "event": "回传",
+          "path": "r/T3/T1",
+          "value": 3.0,
+          "bound": "精确值",
+          "alpha_in": 1.0,
+          "beta_in": "inf",
+          "action": "T2"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T3/T2/T1/T4",
+          "value": 3.0,
+          "alpha": 1.0,
+          "beta": 3.0
+        },
+        {
+          "event": "回传",
+          "path": "r/T3/T2/T1",
+          "value": 3.0,
+          "bound": "下界",
+          "alpha_in": 1.0,
+          "beta_in": 3.0,
+          "action": "T4"
+        },
+        {
+          "event": "剪枝",
+          "path": "r/T3/T2",
+          "alpha": 3.0,
+          "beta": 3.0,
+          "skipped": [
+            "T4"
+          ]
+        },
+        {
+          "event": "回传",
+          "path": "r/T3/T2",
+          "value": 3.0,
+          "bound": "下界",
+          "alpha_in": 1.0,
+          "beta_in": 3.0,
+          "action": "T1"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T3/T4/T1/T2",
+          "value": 5.0,
+          "alpha": 1.0,
+          "beta": 3.0
+        },
+        {
+          "event": "回传",
+          "path": "r/T3/T4/T1",
+          "value": 5.0,
+          "bound": "下界",
+          "alpha_in": 1.0,
+          "beta_in": 3.0,
+          "action": "T2"
+        },
+        {
+          "event": "剪枝",
+          "path": "r/T3/T4",
+          "alpha": 5.0,
+          "beta": 3.0,
+          "skipped": [
+            "T2"
+          ]
+        },
+        {
+          "event": "回传",
+          "path": "r/T3/T4",
+          "value": 5.0,
+          "bound": "下界",
+          "alpha_in": 1.0,
+          "beta_in": 3.0,
+          "action": "T1"
+        },
+        {
+          "event": "回传",
+          "path": "r/T3",
+          "value": 3.0,
+          "bound": "精确值",
+          "alpha_in": 1.0,
+          "beta_in": "inf",
+          "action": "T1"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T4/T1/T2/T3",
+          "value": -3.0,
+          "alpha": 3.0,
+          "beta": "inf"
+        },
+        {
+          "event": "回传",
+          "path": "r/T4/T1/T2",
+          "value": -3.0,
+          "bound": "上界",
+          "alpha_in": 3.0,
+          "beta_in": "inf",
+          "action": "T3"
+        },
+        {
+          "event": "叶子",
+          "path": "r/T4/T1/T3/T2",
+          "value": -1.0,
+          "alpha": 3.0,
+          "beta": "inf"
+        },
+        {
+          "event": "回传",
+          "path": "r/T4/T1/T3",
+          "value": -1.0,
+          "bound": "上界",
+          "alpha_in": 3.0,
+          "beta_in": "inf",
+          "action": "T2"
+        },
+        {
+          "event": "回传",
+          "path": "r/T4/T1",
+          "value": -1.0,
+          "bound": "上界",
+          "alpha_in": 3.0,
+          "beta_in": "inf",
+          "action": "T3"
+        },
+        {
+          "event": "剪枝",
+          "path": "r/T4",
+          "alpha": 3.0,
+          "beta": -1.0,
+          "skipped": [
+            "T2",
+            "T3"
+          ]
+        },
+        {
+          "event": "回传",
+          "path": "r/T4",
+          "value": -1.0,
+          "bound": "上界",
+          "alpha_in": 3.0,
+          "beta_in": "inf",
+          "action": "T1"
+        },
+        {
+          "event": "回传",
+          "path": "r",
+          "value": 3.0,
+          "bound": "精确值",
+          "alpha_in": "-inf",
+          "beta_in": "inf",
+          "action": "T3"
+        }
+      ]
+    },
+    "trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T3",
+        "distance": 8.0,
+        "gain": -1.0,
+        "score_a": -1.0,
+        "score_b": 0,
+        "utility": -1.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T1",
+        "distance": 8.0,
+        "gain": 1.0,
+        "score_a": -1.0,
+        "score_b": 1.0,
+        "utility": -2.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T3",
+        "target": "T2",
+        "distance": 6.0,
+        "gain": 0.0,
+        "score_a": -1.0,
+        "score_b": 1.0,
+        "utility": -2.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T1",
+        "target": "T4",
+        "distance": 12.0,
+        "gain": -5.0,
+        "score_a": -1.0,
+        "score_b": -4.0,
+        "utility": 3.0
+      }
+    ]
+  }
+}

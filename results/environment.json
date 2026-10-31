@@ -1,0 +1,18 @@
+{
+  "python": "3.11.7",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "repeats": 7,
+  "seeds": [
+    66,
+    88
+  ],
+  "wall_seconds": 4.786230199970305,
+  "source_sha256": {
+    "astar.py": "7f6ba3e587dbc9b16831d2238f8bfba643f5a48992ef79e26d9120d96986624c",
+    "cases.py": "8a4c50d164f5d3b62ced73c728d91ff7482022b94e706c07ce5322f11e888ee3",
+    "experiments.py": "669311488971b84977d204670369dbaad9ee9bd6cc64ccc2a639c6b69fc297c2",
+    "game_search.py": "6d9effe03a026dcee9fc90e1eba6b21d1db42ffa3f5a7f6f9d6fe08af9195941",
+    "plot_results.py": "afb63b6275475a80152d5e21b829654e341564c8b34c2d65152962dd057be7f7",
+    "treasure.py": "04650a216d1344e21b20595e4e86599ebeab322497ff343ba86acda5001f5bce"
+  }
+}

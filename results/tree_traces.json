@@ -1,0 +1,798 @@
+{
+  "False_natural": {
+    "value": 5,
+    "best_action": 0,
+    "principal_variation": [
+      0,
+      0,
+      1
+    ],
+    "visited": 15,
+    "leaves": 8,
+    "cutoffs": 0,
+    "skipped_children": 0,
+    "events": [
+      {
+        "event": "叶子",
+        "path": "r/0/0/0",
+        "value": 3,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/0/1",
+        "value": 5,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/0/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/1/0",
+        "value": 6,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/1/1",
+        "value": 9,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/0/1",
+        "value": 9,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/0/0",
+        "value": 6,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/0/1",
+        "value": 9,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/1/0",
+        "value": 9,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/1/0",
+        "value": 1,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/1/1",
+        "value": 2,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/1/1",
+        "value": 2,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r/1",
+        "value": 2,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      }
+    ]
+  },
+  "False_reverse": {
+    "value": 5,
+    "best_action": 0,
+    "principal_variation": [
+      0,
+      0,
+      1
+    ],
+    "visited": 15,
+    "leaves": 8,
+    "cutoffs": 0,
+    "skipped_children": 0,
+    "events": [
+      {
+        "event": "叶子",
+        "path": "r/1/1/1",
+        "value": 2,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/1/0",
+        "value": 1,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/1/1",
+        "value": 2,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/0/1",
+        "value": 9,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/0/0",
+        "value": 6,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/1/0",
+        "value": 9,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r/1",
+        "value": 2,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/1/1",
+        "value": 9,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/1/0",
+        "value": 6,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/0/1",
+        "value": 9,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/0/1",
+        "value": 5,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/0/0",
+        "value": 3,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/0/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      },
+      {
+        "event": "回传",
+        "path": "r",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      }
+    ]
+  },
+  "False_random": {
+    "value": 5,
+    "best_action": 0,
+    "principal_variation": [
+      0,
+      0,
+      1
+    ],
+    "visited": 15,
+    "leaves": 8,
+    "cutoffs": 0,
+    "skipped_children": 0,
+    "events": [
+      {
+        "event": "叶子",
+        "path": "r/0/0/1",
+        "value": 5,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/0/0",
+        "value": 3,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/0/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/1/0",
+        "value": 6,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/1/1",
+        "value": 9,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/0/1",
+        "value": 9,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/1/0",
+        "value": 1,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/1/1",
+        "value": 2,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/1/1",
+        "value": 2,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/0/0",
+        "value": 6,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/0/1",
+        "value": 9,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/1/0",
+        "value": 9,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r/1",
+        "value": 2,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      }
+    ]
+  },
+  "True_natural": {
+    "value": 5,
+    "best_action": 0,
+    "principal_variation": [
+      0,
+      0,
+      1
+    ],
+    "visited": 14,
+    "leaves": 7,
+    "cutoffs": 1,
+    "skipped_children": 1,
+    "events": [
+      {
+        "event": "叶子",
+        "path": "r/0/0/0",
+        "value": 3,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/0/1",
+        "value": 5,
+        "alpha": 3,
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/0/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/1/0",
+        "value": 6,
+        "alpha": "-inf",
+        "beta": 5
+      },
+      {
+        "event": "剪枝",
+        "path": "r/0/1",
+        "alpha": 6,
+        "beta": 5,
+        "skipped": [
+          "1"
+        ]
+      },
+      {
+        "event": "回传",
+        "path": "r/0/1",
+        "value": 6,
+        "bound": "下界",
+        "alpha_in": "-inf",
+        "beta_in": 5,
+        "action": "0"
+      },
+      {
+        "event": "回传",
+        "path": "r/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/0/0",
+        "value": 6,
+        "alpha": 5,
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/0/1",
+        "value": 9,
+        "alpha": 6,
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/1/0",
+        "value": 9,
+        "bound": "精确值",
+        "alpha_in": 5,
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/1/0",
+        "value": 1,
+        "alpha": 5,
+        "beta": 9
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/1/1",
+        "value": 2,
+        "alpha": 5,
+        "beta": 9
+      },
+      {
+        "event": "回传",
+        "path": "r/1/1",
+        "value": 2,
+        "bound": "上界",
+        "alpha_in": 5,
+        "beta_in": 9,
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r/1",
+        "value": 2,
+        "bound": "上界",
+        "alpha_in": 5,
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      }
+    ]
+  },
+  "True_reverse": {
+    "value": 5,
+    "best_action": 0,
+    "principal_variation": [
+      0,
+      0,
+      1
+    ],
+    "visited": 14,
+    "leaves": 7,
+    "cutoffs": 1,
+    "skipped_children": 1,
+    "events": [
+      {
+        "event": "叶子",
+        "path": "r/1/1/1",
+        "value": 2,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/1/0",
+        "value": 1,
+        "alpha": 2,
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/1/1",
+        "value": 2,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/0/1",
+        "value": 9,
+        "alpha": "-inf",
+        "beta": 2
+      },
+      {
+        "event": "剪枝",
+        "path": "r/1/0",
+        "alpha": 9,
+        "beta": 2,
+        "skipped": [
+          "0"
+        ]
+      },
+      {
+        "event": "回传",
+        "path": "r/1/0",
+        "value": 9,
+        "bound": "下界",
+        "alpha_in": "-inf",
+        "beta_in": 2,
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r/1",
+        "value": 2,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/1/1",
+        "value": 9,
+        "alpha": 2,
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/1/0",
+        "value": 6,
+        "alpha": 9,
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/0/1",
+        "value": 9,
+        "bound": "精确值",
+        "alpha_in": 2,
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/0/1",
+        "value": 5,
+        "alpha": 2,
+        "beta": 9
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/0/0",
+        "value": 3,
+        "alpha": 5,
+        "beta": 9
+      },
+      {
+        "event": "回传",
+        "path": "r/0/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": 2,
+        "beta_in": 9,
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": 2,
+        "beta_in": "inf",
+        "action": "0"
+      },
+      {
+        "event": "回传",
+        "path": "r",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      }
+    ]
+  },
+  "True_random": {
+    "value": 5,
+    "best_action": 0,
+    "principal_variation": [
+      0,
+      0,
+      1
+    ],
+    "visited": 11,
+    "leaves": 5,
+    "cutoffs": 2,
+    "skipped_children": 2,
+    "events": [
+      {
+        "event": "叶子",
+        "path": "r/0/0/1",
+        "value": 5,
+        "alpha": "-inf",
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/0/0",
+        "value": 3,
+        "alpha": 5,
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/0/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "叶子",
+        "path": "r/0/1/0",
+        "value": 6,
+        "alpha": "-inf",
+        "beta": 5
+      },
+      {
+        "event": "剪枝",
+        "path": "r/0/1",
+        "alpha": 6,
+        "beta": 5,
+        "skipped": [
+          "1"
+        ]
+      },
+      {
+        "event": "回传",
+        "path": "r/0/1",
+        "value": 6,
+        "bound": "下界",
+        "alpha_in": "-inf",
+        "beta_in": 5,
+        "action": "0"
+      },
+      {
+        "event": "回传",
+        "path": "r/0",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/1/0",
+        "value": 1,
+        "alpha": 5,
+        "beta": "inf"
+      },
+      {
+        "event": "叶子",
+        "path": "r/1/1/1",
+        "value": 2,
+        "alpha": 5,
+        "beta": "inf"
+      },
+      {
+        "event": "回传",
+        "path": "r/1/1",
+        "value": 2,
+        "bound": "上界",
+        "alpha_in": 5,
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "剪枝",
+        "path": "r/1",
+        "alpha": 5,
+        "beta": 2,
+        "skipped": [
+          "0"
+        ]
+      },
+      {
+        "event": "回传",
+        "path": "r/1",
+        "value": 2,
+        "bound": "上界",
+        "alpha_in": 5,
+        "beta_in": "inf",
+        "action": "1"
+      },
+      {
+        "event": "回传",
+        "path": "r",
+        "value": 5,
+        "bound": "精确值",
+        "alpha_in": "-inf",
+        "beta_in": "inf",
+        "action": "0"
+      }
+    ]
+  }
+}

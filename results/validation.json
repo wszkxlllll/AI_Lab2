@@ -1,0 +1,8 @@
+{
+  "path_pairs": 1200,
+  "heuristic_edges": 3756,
+  "tree_comparisons": 180,
+  "treasure_prefixes": 104,
+  "treasure_scenarios": 20,
+  "status": "通过"
+}

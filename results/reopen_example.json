@@ -1,0 +1,104 @@
+{
+  "False": {
+    "path": [
+      "S",
+      "A",
+      "G"
+    ],
+    "cost": 6,
+    "expanded": 3,
+    "pushed": 4,
+    "popped": 4,
+    "stale": 0,
+    "reopened": 0,
+    "peak_open": 2,
+    "trace": [
+      {
+        "event": "取出",
+        "node": "S",
+        "g": 0,
+        "h": 0,
+        "f": 0
+      },
+      {
+        "event": "取出",
+        "node": "A",
+        "g": 3,
+        "h": 0,
+        "f": 3
+      },
+      {
+        "event": "取出",
+        "node": "B",
+        "g": 1,
+        "h": 4,
+        "f": 5
+      },
+      {
+        "event": "取出",
+        "node": "G",
+        "g": 6,
+        "h": 0,
+        "f": 6
+      }
+    ]
+  },
+  "True": {
+    "path": [
+      "S",
+      "B",
+      "A",
+      "G"
+    ],
+    "cost": 5,
+    "expanded": 4,
+    "pushed": 6,
+    "popped": 5,
+    "stale": 0,
+    "reopened": 1,
+    "peak_open": 2,
+    "trace": [
+      {
+        "event": "取出",
+        "node": "S",
+        "g": 0,
+        "h": 0,
+        "f": 0
+      },
+      {
+        "event": "取出",
+        "node": "A",
+        "g": 3,
+        "h": 0,
+        "f": 3
+      },
+      {
+        "event": "取出",
+        "node": "B",
+        "g": 1,
+        "h": 4,
+        "f": 5
+      },
+      {
+        "event": "重开",
+        "node": "A",
+        "old_g": 3,
+        "new_g": 2
+      },
+      {
+        "event": "取出",
+        "node": "A",
+        "g": 2,
+        "h": 0,
+        "f": 2
+      },
+      {
+        "event": "取出",
+        "node": "G",
+        "g": 5,
+        "h": 0,
+        "f": 5
+      }
+    ]
+  }
+}

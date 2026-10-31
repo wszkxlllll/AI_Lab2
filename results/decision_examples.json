@@ -1,0 +1,1066 @@
+[
+  {
+    "name": "random_66_0",
+    "values": {
+      "T1": 13,
+      "T2": 6,
+      "T3": 7,
+      "T4": 9
+    },
+    "roots": [
+      {
+        "target": "T1",
+        "immediate_gain": -2.0,
+        "current_h2": -5.0,
+        "opportunity_h2": -13.0,
+        "full_h4": -13.0
+      },
+      {
+        "target": "T2",
+        "immediate_gain": -6.0,
+        "current_h2": -9.0,
+        "opportunity_h2": -10.0,
+        "full_h4": -10.0
+      },
+      {
+        "target": "T3",
+        "immediate_gain": -10.0,
+        "current_h2": -10.0,
+        "opportunity_h2": -6.0,
+        "full_h4": -6.0
+      },
+      {
+        "target": "T4",
+        "immediate_gain": -11.0,
+        "current_h2": -14.0,
+        "opportunity_h2": -18.0,
+        "full_h4": -18.0
+      }
+    ],
+    "current_first": "T1",
+    "opportunity_first": "T3",
+    "current_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T1",
+        "distance": 15.0,
+        "gain": -2.0,
+        "score_a": -2.0,
+        "score_b": 0,
+        "utility": -2.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "distance": 4.0,
+        "gain": 3.0,
+        "score_a": -2.0,
+        "score_b": 3.0,
+        "utility": -5.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T1",
+        "target": "T2",
+        "distance": 12.0,
+        "gain": -6.0,
+        "score_a": -8.0,
+        "score_b": 3.0,
+        "utility": -11.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T3",
+        "target": "T4",
+        "distance": 7.0,
+        "gain": 2.0,
+        "score_a": -8.0,
+        "score_b": 5.0,
+        "utility": -13.0
+      }
+    ],
+    "opportunity_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T3",
+        "distance": 17.0,
+        "gain": -10.0,
+        "score_a": -10.0,
+        "score_b": 0,
+        "utility": -10.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T2",
+        "distance": 9.0,
+        "gain": -3.0,
+        "score_a": -10.0,
+        "score_b": -3.0,
+        "utility": -7.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T3",
+        "target": "T1",
+        "distance": 11.0,
+        "gain": 2.0,
+        "score_a": -8.0,
+        "score_b": -3.0,
+        "utility": -5.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T2",
+        "target": "T4",
+        "distance": 8.0,
+        "gain": 1.0,
+        "score_a": -8.0,
+        "score_b": -2.0,
+        "utility": -6.0
+      }
+    ]
+  },
+  {
+    "name": "random_66_3",
+    "values": {
+      "T1": 12,
+      "T2": 12,
+      "T3": 13,
+      "T4": 14
+    },
+    "roots": [
+      {
+        "target": "T1",
+        "immediate_gain": -3.0,
+        "current_h2": -9.0,
+        "opportunity_h2": -14.0,
+        "full_h4": -14.0
+      },
+      {
+        "target": "T2",
+        "immediate_gain": 7.0,
+        "current_h2": 1.0,
+        "opportunity_h2": 0.0,
+        "full_h4": 2.0
+      },
+      {
+        "target": "T3",
+        "immediate_gain": 3.0,
+        "current_h2": 0.0,
+        "opportunity_h2": 2.0,
+        "full_h4": 6.0
+      },
+      {
+        "target": "T4",
+        "immediate_gain": 3.0,
+        "current_h2": -3.0,
+        "opportunity_h2": -6.0,
+        "full_h4": -4.0
+      }
+    ],
+    "current_first": "T2",
+    "opportunity_first": "T3",
+    "current_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "distance": 5.0,
+        "gain": 7.0,
+        "score_a": 7.0,
+        "score_b": 0,
+        "utility": 7.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "distance": 7.0,
+        "gain": 6.0,
+        "score_a": 7.0,
+        "score_b": 6.0,
+        "utility": 1.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T2",
+        "target": "T4",
+        "distance": 8.0,
+        "gain": 6.0,
+        "score_a": 13.0,
+        "score_b": 6.0,
+        "utility": 7.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T3",
+        "target": "T1",
+        "distance": 7.0,
+        "gain": 5.0,
+        "score_a": 13.0,
+        "score_b": 11.0,
+        "utility": 2.0
+      }
+    ],
+    "opportunity_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T3",
+        "distance": 10.0,
+        "gain": 3.0,
+        "score_a": 3.0,
+        "score_b": 0,
+        "utility": 3.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T2",
+        "distance": 10.0,
+        "gain": 2.0,
+        "score_a": 3.0,
+        "score_b": 2.0,
+        "utility": 1.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T3",
+        "target": "T4",
+        "distance": 7.0,
+        "gain": 7.0,
+        "score_a": 10.0,
+        "score_b": 2.0,
+        "utility": 8.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T2",
+        "target": "T1",
+        "distance": 10.0,
+        "gain": 2.0,
+        "score_a": 10.0,
+        "score_b": 4.0,
+        "utility": 6.0
+      }
+    ]
+  },
+  {
+    "name": "random_66_4",
+    "values": {
+      "T1": 7,
+      "T2": 9,
+      "T3": 10,
+      "T4": 7
+    },
+    "roots": [
+      {
+        "target": "T1",
+        "immediate_gain": -12.0,
+        "current_h2": -18.0,
+        "opportunity_h2": -27.0,
+        "full_h4": -20.0
+      },
+      {
+        "target": "T2",
+        "immediate_gain": 4.0,
+        "current_h2": -2.0,
+        "opportunity_h2": 2.0,
+        "full_h4": 2.0
+      },
+      {
+        "target": "T3",
+        "immediate_gain": 0.0,
+        "current_h2": 0.0,
+        "opportunity_h2": -4.0,
+        "full_h4": 4.0
+      },
+      {
+        "target": "T4",
+        "immediate_gain": -2.0,
+        "current_h2": -8.0,
+        "opportunity_h2": -9.0,
+        "full_h4": -2.0
+      }
+    ],
+    "current_first": "T3",
+    "opportunity_first": "T2",
+    "current_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T3",
+        "distance": 10.0,
+        "gain": 0.0,
+        "score_a": 0.0,
+        "score_b": 0,
+        "utility": 0.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T2",
+        "distance": 9.0,
+        "gain": 0.0,
+        "score_a": 0.0,
+        "score_b": 0.0,
+        "utility": 0.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T3",
+        "target": "T4",
+        "distance": 10.0,
+        "gain": -3.0,
+        "score_a": -3.0,
+        "score_b": 0.0,
+        "utility": -3.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T2",
+        "target": "T1",
+        "distance": 14.0,
+        "gain": -7.0,
+        "score_a": -3.0,
+        "score_b": -7.0,
+        "utility": 4.0
+      }
+    ],
+    "opportunity_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "distance": 5.0,
+        "gain": 4.0,
+        "score_a": 4.0,
+        "score_b": 0,
+        "utility": 4.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "distance": 4.0,
+        "gain": 6.0,
+        "score_a": 4.0,
+        "score_b": 6.0,
+        "utility": -2.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T2",
+        "target": "T4",
+        "distance": 6.0,
+        "gain": 1.0,
+        "score_a": 5.0,
+        "score_b": 6.0,
+        "utility": -1.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T3",
+        "target": "T1",
+        "distance": 10.0,
+        "gain": -3.0,
+        "score_a": 5.0,
+        "score_b": 3.0,
+        "utility": 2.0
+      }
+    ]
+  },
+  {
+    "name": "random_66_7",
+    "values": {
+      "T1": 8,
+      "T2": 8,
+      "T3": 10,
+      "T4": 12
+    },
+    "roots": [
+      {
+        "target": "T1",
+        "immediate_gain": -6.0,
+        "current_h2": -11.0,
+        "opportunity_h2": -21.0,
+        "full_h4": -20.0
+      },
+      {
+        "target": "T2",
+        "immediate_gain": 4.0,
+        "current_h2": -1.0,
+        "opportunity_h2": -7.0,
+        "full_h4": 3.0
+      },
+      {
+        "target": "T3",
+        "immediate_gain": -3.0,
+        "current_h2": -2.0,
+        "opportunity_h2": 3.0,
+        "full_h4": 11.0
+      },
+      {
+        "target": "T4",
+        "immediate_gain": -4.0,
+        "current_h2": -9.0,
+        "opportunity_h2": -14.0,
+        "full_h4": -9.0
+      }
+    ],
+    "current_first": "T2",
+    "opportunity_first": "T3",
+    "current_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "distance": 4.0,
+        "gain": 4.0,
+        "score_a": 4.0,
+        "score_b": 0,
+        "utility": 4.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "distance": 5.0,
+        "gain": 5.0,
+        "score_a": 4.0,
+        "score_b": 5.0,
+        "utility": -1.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T2",
+        "target": "T4",
+        "distance": 14.0,
+        "gain": -2.0,
+        "score_a": 2.0,
+        "score_b": 5.0,
+        "utility": -3.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T3",
+        "target": "T1",
+        "distance": 14.0,
+        "gain": -6.0,
+        "score_a": 2.0,
+        "score_b": -1.0,
+        "utility": 3.0
+      }
+    ],
+    "opportunity_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T3",
+        "distance": 13.0,
+        "gain": -3.0,
+        "score_a": -3.0,
+        "score_b": 0,
+        "utility": -3.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T4",
+        "distance": 13.0,
+        "gain": -1.0,
+        "score_a": -3.0,
+        "score_b": -1.0,
+        "utility": -2.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T3",
+        "target": "T2",
+        "distance": 9.0,
+        "gain": -1.0,
+        "score_a": -4.0,
+        "score_b": -1.0,
+        "utility": -3.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T4",
+        "target": "T1",
+        "distance": 22.0,
+        "gain": -14.0,
+        "score_a": -4.0,
+        "score_b": -15.0,
+        "utility": 11.0
+      }
+    ]
+  },
+  {
+    "name": "random_88_2",
+    "values": {
+      "T1": 10,
+      "T2": 6,
+      "T3": 11,
+      "T4": 12
+    },
+    "roots": [
+      {
+        "target": "T1",
+        "immediate_gain": -14.0,
+        "current_h2": -20.0,
+        "opportunity_h2": -29.0,
+        "full_h4": -24.0
+      },
+      {
+        "target": "T2",
+        "immediate_gain": -3.0,
+        "current_h2": -9.0,
+        "opportunity_h2": -6.0,
+        "full_h4": -5.0
+      },
+      {
+        "target": "T3",
+        "immediate_gain": -7.0,
+        "current_h2": -8.0,
+        "opportunity_h2": -6.0,
+        "full_h4": -2.0
+      },
+      {
+        "target": "T4",
+        "immediate_gain": -2.0,
+        "current_h2": -8.0,
+        "opportunity_h2": -10.0,
+        "full_h4": -10.0
+      }
+    ],
+    "current_first": "T3",
+    "opportunity_first": "T2",
+    "current_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T3",
+        "distance": 18.0,
+        "gain": -7.0,
+        "score_a": -7.0,
+        "score_b": 0,
+        "utility": -7.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T4",
+        "distance": 11.0,
+        "gain": 1.0,
+        "score_a": -7.0,
+        "score_b": 1.0,
+        "utility": -8.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T3",
+        "target": "T2",
+        "distance": 9.0,
+        "gain": -3.0,
+        "score_a": -10.0,
+        "score_b": 1.0,
+        "utility": -11.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T4",
+        "target": "T1",
+        "distance": 19.0,
+        "gain": -9.0,
+        "score_a": -10.0,
+        "score_b": -8.0,
+        "utility": -2.0
+      }
+    ],
+    "opportunity_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "distance": 9.0,
+        "gain": -3.0,
+        "score_a": -3.0,
+        "score_b": 0,
+        "utility": -3.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "distance": 5.0,
+        "gain": 6.0,
+        "score_a": -3.0,
+        "score_b": 6.0,
+        "utility": -9.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T2",
+        "target": "T4",
+        "distance": 7.0,
+        "gain": 5.0,
+        "score_a": 2.0,
+        "score_b": 6.0,
+        "utility": -4.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T3",
+        "target": "T1",
+        "distance": 9.0,
+        "gain": 1.0,
+        "score_a": 2.0,
+        "score_b": 7.0,
+        "utility": -5.0
+      }
+    ]
+  },
+  {
+    "name": "random_88_8",
+    "values": {
+      "T1": 6,
+      "T2": 9,
+      "T3": 6,
+      "T4": 13
+    },
+    "roots": [
+      {
+        "target": "T1",
+        "immediate_gain": -8.0,
+        "current_h2": -13.0,
+        "opportunity_h2": -14.0,
+        "full_h4": -13.0
+      },
+      {
+        "target": "T2",
+        "immediate_gain": 5.0,
+        "current_h2": 0.0,
+        "opportunity_h2": 1.0,
+        "full_h4": 8.0
+      },
+      {
+        "target": "T3",
+        "immediate_gain": -2.0,
+        "current_h2": -7.0,
+        "opportunity_h2": -4.0,
+        "full_h4": 4.0
+      },
+      {
+        "target": "T4",
+        "immediate_gain": 3.0,
+        "current_h2": 4.0,
+        "opportunity_h2": 1.0,
+        "full_h4": 5.0
+      }
+    ],
+    "current_first": "T4",
+    "opportunity_first": "T2",
+    "current_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T4",
+        "distance": 10.0,
+        "gain": 3.0,
+        "score_a": 3.0,
+        "score_b": 0,
+        "utility": 3.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "distance": 7.0,
+        "gain": -1.0,
+        "score_a": 3.0,
+        "score_b": -1.0,
+        "utility": 4.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T4",
+        "target": "T2",
+        "distance": 9.0,
+        "gain": 0.0,
+        "score_a": 3.0,
+        "score_b": -1.0,
+        "utility": 4.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T3",
+        "target": "T1",
+        "distance": 7.0,
+        "gain": -1.0,
+        "score_a": 3.0,
+        "score_b": -2.0,
+        "utility": 5.0
+      }
+    ],
+    "opportunity_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "distance": 4.0,
+        "gain": 5.0,
+        "score_a": 5.0,
+        "score_b": 0,
+        "utility": 5.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T4",
+        "distance": 8.0,
+        "gain": 5.0,
+        "score_a": 5.0,
+        "score_b": 5.0,
+        "utility": 0.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T2",
+        "target": "T3",
+        "distance": 6.0,
+        "gain": 0.0,
+        "score_a": 5.0,
+        "score_b": 5.0,
+        "utility": 0.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T4",
+        "target": "T1",
+        "distance": 14.0,
+        "gain": -8.0,
+        "score_a": 5.0,
+        "score_b": -3.0,
+        "utility": 8.0
+      }
+    ]
+  },
+  {
+    "name": "random_88_10",
+    "values": {
+      "T1": 10,
+      "T2": 6,
+      "T3": 6,
+      "T4": 11
+    },
+    "roots": [
+      {
+        "target": "T1",
+        "immediate_gain": 3.0,
+        "current_h2": 2.0,
+        "opportunity_h2": -1.0,
+        "full_h4": 2.0
+      },
+      {
+        "target": "T2",
+        "immediate_gain": 2.0,
+        "current_h2": 0.0,
+        "opportunity_h2": 1.0,
+        "full_h4": 5.0
+      },
+      {
+        "target": "T3",
+        "immediate_gain": -2.0,
+        "current_h2": -4.0,
+        "opportunity_h2": -1.0,
+        "full_h4": 4.0
+      },
+      {
+        "target": "T4",
+        "immediate_gain": -1.0,
+        "current_h2": -3.0,
+        "opportunity_h2": -10.0,
+        "full_h4": -10.0
+      }
+    ],
+    "current_first": "T1",
+    "opportunity_first": "T2",
+    "current_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T1",
+        "distance": 7.0,
+        "gain": 3.0,
+        "score_a": 3.0,
+        "score_b": 0,
+        "utility": 3.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "distance": 5.0,
+        "gain": 1.0,
+        "score_a": 3.0,
+        "score_b": 1.0,
+        "utility": 2.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T1",
+        "target": "T2",
+        "distance": 7.0,
+        "gain": -1.0,
+        "score_a": 2.0,
+        "score_b": 1.0,
+        "utility": 1.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T3",
+        "target": "T4",
+        "distance": 12.0,
+        "gain": -1.0,
+        "score_a": 2.0,
+        "score_b": 0.0,
+        "utility": 2.0
+      }
+    ],
+    "opportunity_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "distance": 4.0,
+        "gain": 2.0,
+        "score_a": 2.0,
+        "score_b": 0,
+        "utility": 2.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "distance": 5.0,
+        "gain": 1.0,
+        "score_a": 2.0,
+        "score_b": 1.0,
+        "utility": 1.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T2",
+        "target": "T1",
+        "distance": 7.0,
+        "gain": 3.0,
+        "score_a": 5.0,
+        "score_b": 1.0,
+        "utility": 4.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T3",
+        "target": "T4",
+        "distance": 12.0,
+        "gain": -1.0,
+        "score_a": 5.0,
+        "score_b": 0.0,
+        "utility": 5.0
+      }
+    ]
+  },
+  {
+    "name": "random_88_11",
+    "values": {
+      "T1": 6,
+      "T2": 7,
+      "T3": 8,
+      "T4": 12
+    },
+    "roots": [
+      {
+        "target": "T1",
+        "immediate_gain": -3.0,
+        "current_h2": -6.0,
+        "opportunity_h2": -10.0,
+        "full_h4": -10.0
+      },
+      {
+        "target": "T2",
+        "immediate_gain": 2.0,
+        "current_h2": -1.0,
+        "opportunity_h2": -1.0,
+        "full_h4": 6.0
+      },
+      {
+        "target": "T3",
+        "immediate_gain": -1.0,
+        "current_h2": -2.0,
+        "opportunity_h2": 0.0,
+        "full_h4": 5.0
+      },
+      {
+        "target": "T4",
+        "immediate_gain": 0.0,
+        "current_h2": -3.0,
+        "opportunity_h2": -6.0,
+        "full_h4": -1.0
+      }
+    ],
+    "current_first": "T2",
+    "opportunity_first": "T3",
+    "current_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "distance": 5.0,
+        "gain": 2.0,
+        "score_a": 2.0,
+        "score_b": 0,
+        "utility": 2.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "distance": 5.0,
+        "gain": 3.0,
+        "score_a": 2.0,
+        "score_b": 3.0,
+        "utility": -1.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T2",
+        "target": "T4",
+        "distance": 7.0,
+        "gain": 5.0,
+        "score_a": 7.0,
+        "score_b": 3.0,
+        "utility": 4.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T3",
+        "target": "T1",
+        "distance": 8.0,
+        "gain": -2.0,
+        "score_a": 7.0,
+        "score_b": 1.0,
+        "utility": 6.0
+      }
+    ],
+    "opportunity_trajectory": [
+      {
+        "turn": 1,
+        "player": "A",
+        "source": "A",
+        "target": "T3",
+        "distance": 9.0,
+        "gain": -1.0,
+        "score_a": -1.0,
+        "score_b": 0,
+        "utility": -1.0
+      },
+      {
+        "turn": 2,
+        "player": "B",
+        "source": "B",
+        "target": "T2",
+        "distance": 8.0,
+        "gain": -1.0,
+        "score_a": -1.0,
+        "score_b": -1.0,
+        "utility": 0.0
+      },
+      {
+        "turn": 3,
+        "player": "A",
+        "source": "T3",
+        "target": "T4",
+        "distance": 7.0,
+        "gain": 5.0,
+        "score_a": 4.0,
+        "score_b": -1.0,
+        "utility": 5.0
+      },
+      {
+        "turn": 4,
+        "player": "B",
+        "source": "T2",
+        "target": "T1",
+        "distance": 6.0,
+        "gain": 0.0,
+        "score_a": 4.0,
+        "score_b": -1.0,
+        "utility": 5.0
+      }
+    ]
+  }
+]
